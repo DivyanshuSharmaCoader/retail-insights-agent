@@ -1,0 +1,22 @@
+# secrets
+.env
+
+# generated data (rebuilt by `python -m scripts.setup_data` or on API start-up)
+data/retail.db
+data/retail.db-*
+data/index/
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+
+# os / editors
+.DS_Store
+.idea/
+.vscode/

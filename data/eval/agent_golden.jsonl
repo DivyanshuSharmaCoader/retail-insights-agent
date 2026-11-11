@@ -1,0 +1,12 @@
+{"question": "What was total net revenue in Q2 2026?", "routes": ["sql"], "reference_sql": "SELECT ROUND(SUM(revenue), 2) FROM sales WHERE sale_date BETWEEN '2026-04-01' AND '2026-06-30'"}
+{"question": "Which region had the highest revenue growth from Q1 to Q2 2026?", "routes": ["sql", "both"], "expect_text": ["South"]}
+{"question": "What was the Dairy return rate in May 2026?", "routes": ["sql"], "reference_sql": "SELECT 100.0 * SUM(COALESCE(r.units, 0)) / SUM(s.units) FROM sales s JOIN products p USING (product_id) LEFT JOIN (SELECT sale_id, SUM(units) units FROM returns GROUP BY sale_id) r USING (sale_id) WHERE p.category = 'Dairy' AND s.sale_date BETWEEN '2026-05-01' AND '2026-05-31'"}
+{"question": "How many units of Snacks were sold during the New Year Snack Fest promotion?", "routes": ["sql"], "reference_sql": "SELECT SUM(units) FROM sales WHERE promo_id = 'P01'"}
+{"question": "Which store had the highest revenue per square foot from January to September 2026?", "routes": ["sql"], "reference_sql": "SELECT st.store_id FROM sales s JOIN stores st USING (store_id) GROUP BY st.store_id ORDER BY SUM(s.revenue) / MAX(st.area_sqft) DESC LIMIT 1"}
+{"question": "Did the Summer Chill promotion meet the uplift target in the promotions playbook?", "routes": ["both"], "expect_text": ["20%"]}
+{"question": "Did the Dairy return rate in May 2026 breach the returns policy threshold?", "routes": ["both"], "expect_text": ["3%"]}
+{"question": "Is Dairy's gross margin in September 2026 within its target band?", "routes": ["both"], "expect_text": ["18%"]}
+{"question": "What is the maximum discount allowed on a promotion?", "routes": ["docs"], "expect_text": ["30%"]}
+{"question": "Who must approve a 15% permanent price increase?", "routes": ["docs"], "expect_text": ["Category Head"]}
+{"question": "What temperature range must chilled dairy stay within during delivery?", "routes": ["docs"], "expect_text": ["2", "6"]}
+{"question": "What is the weather in Delhi today?", "routes": ["out_of_scope"], "expect_text": []}

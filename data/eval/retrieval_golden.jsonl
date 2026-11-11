@@ -1,0 +1,27 @@
+{"question": "What penalty does a supplier pay when the fill rate is below target?", "sources": ["supplier_sla.md"], "section": "Penalties"}
+{"question": "How long do customers have to return fresh produce?", "sources": ["returns_policy.md"], "section": "Category-specific rules"}
+{"question": "What revenue uplift must a promotion achieve to count as successful?", "sources": ["promotions_playbook.md"], "section": "Success target"}
+{"question": "Why did dairy returns go up in May?", "sources": ["q2_2026_business_review.md"], "section": "Issue: Dairy returns in May"}
+{"question": "What is the target gross margin for beverages?", "sources": ["pricing_and_margin_policy.md"], "section": "Target gross margin by category"}
+{"question": "Which store format stays open until 23:30?", "sources": ["store_operations.md"], "section": "Store formats"}
+{"question": "What is the maximum discount allowed on a promotion?", "sources": ["promotions_playbook.md"], "section": "Approval rules"}
+{"question": "At what monthly return rate does Quality Assurance have to investigate?", "sources": ["returns_policy.md"], "section": "Return-rate monitoring"}
+{"question": "What temperature must chilled dairy be kept at during delivery?", "sources": ["supplier_sla.md"], "section": "Cold chain"}
+{"question": "How quickly must a post-promotion review be submitted?", "sources": ["promotions_playbook.md"], "section": "Post-promotion review"}
+{"question": "What is the shrinkage target for stores?", "sources": ["store_operations.md"], "section": "Store KPIs"}
+{"question": "When are near-expiry products marked down by 50%?", "sources": ["pricing_and_margin_policy.md"], "section": "Markdowns for near-expiry stock"}
+{"question": "Can I use a loyalty coupon on top of a category promotion?", "sources": ["promotions_playbook.md"], "section": "Approval rules"}
+{"question": "Can customers return opened shampoo?", "sources": ["returns_policy.md"], "section": "Category-specific rules"}
+{"question": "Which region grew fastest in Q2 2026?", "sources": ["q2_2026_business_review.md"], "section": "Summary"}
+{"question": "What happens if a supplier fails for three months in a row?", "sources": ["supplier_sla.md"], "section": "Escalation"}
+{"question": "Who approves a permanent price increase of 15%?", "sources": ["pricing_and_margin_policy.md"], "section": "Price changes"}
+{"question": "What was done to fix the cold-chain problem with Amrit Dairy?", "sources": ["q2_2026_business_review.md"], "section": "Issue: Dairy returns in May"}
+{"question": "How much busier are weekends than weekdays?", "sources": ["store_operations.md"], "section": "Weekly rhythm"}
+{"question": "What on-time-in-full target do suppliers have?", "sources": ["supplier_sla.md"], "section": "Service levels"}
+{"question": "How often are competitor prices checked?", "sources": ["pricing_and_margin_policy.md"], "section": "Competitor price checks"}
+{"question": "Which campaign ran on beverages in summer and what discount did it give?", "sources": ["promotions_playbook.md", "q2_2026_business_review.md"], "section": ""}
+{"question": "What is the lead time for ambient products?", "sources": ["supplier_sla.md"], "section": "Service levels"}
+{"question": "How long is a new store excluded from like-for-like growth?", "sources": ["store_operations.md"], "section": "New stores"}
+{"question": "What is the capital of France?", "sources": [], "section": ""}
+{"question": "Write me a poem about cricket", "sources": [], "section": ""}
+{"question": "What is the price of Bitcoin today?", "sources": [], "section": ""}
